@@ -1,0 +1,34 @@
+.reportotable thead tr td
+{
+    text-align: center;
+    font-size:12px  !important;
+    font-weight: bold
+}
+.reportotable tr td
+{
+    padding: 0 3px;
+}
+.reportotable tbody tr td
+{
+    font-size:11px !important;
+    border-bottom: 1px dashed #c9c9c9;
+}
+.reportotable tr td.cal
+{
+    text-align: center;
+}
+.reportotable tr td:first-child
+{
+    width:160px;
+}
+.good_day{
+    background: #c1dbce;
+}
+.poor_day {
+    background: #d6b4b4;
+}
+.itogo
+{
+    background: #d5d5d5;
+    font-weight: bold;
+}

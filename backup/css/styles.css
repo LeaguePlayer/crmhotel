@@ -1,0 +1,799 @@
+body
+{
+    font-family: Arial, sans-serif;
+
+}
+
+.chess_body
+{
+    overflow: hidden;
+}
+h1,h2
+{
+    display: inline-block;
+    padding-left: 25px;
+}
+h2
+{
+  float: right;  
+  padding-right: 25px;
+}
+.user_phone
+{
+    float: left;
+    width: 350px;
+}
+.user_name
+{
+    float:left;
+}
+.new_phone
+{
+    float:left;
+    display: inline-block;
+    height: 12px;
+    width: 12px;
+    background: url(/images/plus.png) no-repeat;
+}
+iframe
+{
+    position: relative;
+}
+.mails
+{
+    background: transparent;
+}
+.hidden
+{
+    display: none;
+  
+}
+.igoro span
+{
+    font-weight: bold;
+}
+.inputchecker
+{
+    cursor: pointer;
+}
+.chess_body .left_part
+{
+    float: left;
+    width: 169px;
+
+}
+.chess_body .right_part
+{
+    position: relative;
+    float: left;
+        overflow: hidden;
+    width: 704px;
+
+
+}
+
+.first_cell
+{
+    height: 34px !important;
+    width: 160px !important;
+    border-bottom: 1px solid #2e3552;
+    
+    line-height: 34px;
+    padding-left: 8px;
+}
+
+.scrolling_part
+{
+    position: absolute;
+ 
+    top: 0;
+    min-width: 9010px;
+}
+.call_fancy
+{
+    display: inline-block;
+    width: 87px;
+    height: 34px;
+    position: relative;
+    border-bottom: 1px solid #e5e5e5;
+    border-right: 1px solid #e5e5e5;
+    overflow: hidden;
+   
+}
+.part_row
+{
+    overflow: hidden;
+}
+.call_fancy a
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: bold;
+    color:#000;
+}
+.call_fancy
+{
+    background: #fff;
+}
+.call_fancy a:hover
+{
+   background: #f2f2f2;
+   color:#3b456a;
+   font-size: 15px;
+   font-weight: bold;
+   text-shadow:0 1px 1px #fff;
+}
+.dates div
+{
+    height: 28px;
+    width: 87px;
+    float: left;
+    border-bottom: 1px solid #495583;
+    border-right: 1px solid #495583;
+    text-align: center;
+    background: #3b456a;
+    color: #fff;
+    font-family: Arial, sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    line-height: 11px;
+    padding-top: 6px;
+    
+}
+.part_row.dates
+{
+    position: fixed;
+
+
+    z-index: 999;
+}
+.relation_part
+{
+    position: relative;
+  
+}
+#calendar_on_main_br
+{
+    position: relative;
+}
+.dates div span
+{
+    font-size: 10px;
+}
+.call_fancy.busy_cell 
+{
+    text-align: center;
+    border-right: 1px solid #D19732;
+    background: #d19732;
+    line-height: 34px;
+
+}
+.small.busy_cell
+{
+    background: #d19732;
+    text-shadow: 0px 1px 1px #fff;
+}
+.small.live_now
+{
+    background: #448c1b;
+}
+.busy_cell a,.busy_cell span,.small.reserve_small a
+{
+    color:#346c15;
+    font-size: 15px;
+    font-weight: bold;
+    text-shadow: 0 1px 1px #FFFFFF;
+}
+.call_fancy.live_now
+{
+    background: #448c1b;
+    border-right: 1px solid #448c1b;
+    line-height: 34px;
+  text-align: center;
+}
+#users_list li div.nav_icons,.procents
+{
+    display: inline-block;
+    float: right;
+    margin-left: 20px;
+}
+.unpays
+{
+    background: #f00;
+    text-align: center;
+    font-size: 10px;
+    color: #fff;
+    
+    
+}
+.pays
+{
+    background: #3E8116;
+    text-align: center;
+    font-size: 10px;
+    color: #fff;
+    
+}
+.procents div{display: inline-block;overflow: hidden;font-family: trebuchet ms,sans-serif;}
+
+.procents
+{
+    width: 100px;
+    border: 1px solid #000;
+    border-radius: 8px;
+    overflow: hidden;
+}
+@media all and (-webkit-min-device-pixel-ratio:10000),
+not all and (-webkit-min-device-pixel-ratio:0) {
+  .procents {border-radius: 0px;}
+}
+#users_list li div.nav_icons div
+{
+    float: left;
+    padding-left: 8px;
+}
+#users_list li
+{
+    overflow: hidden;
+    line-height: 32px;
+    padding: 5px 12px;
+   
+    border-bottom: 1px solid #000;
+}
+#users_list li:hover
+{
+    background: #ccc;
+}
+#users_list li:last-child
+{
+    border-bottom: none;
+}
+#users_list li span
+{
+    font-weight: bold;
+}
+.live_now a,.live_now span,.small.live_small a
+{
+    color:#ffffff;
+    font-size: 15px;
+      font-weight: bold;
+}
+.field_settings
+{
+    margin-bottom: 8px;
+}
+fieldset legend 
+{
+    margin-left: 20px;
+    font-size: 13px;
+    font-weight: bold;
+}
+.selected_cells
+{
+    background: #9fadc2;
+    
+}
+.border_right_live
+{
+    border-right: 1px solid #448C1B !important;
+}
+.body_menu
+{
+    position: fixed;
+    left: 0;
+    top:0;
+    background: url(/images/bg.png) repeat;
+    display: block;
+    width: 100%;
+    height: 30px;
+    margin: 0px;
+    padding: 10px 0 7px 0;
+    z-index:20;
+}
+.cap_group
+{
+    display: block;
+    text-align: center;
+    font-size: 18px;
+    border-top: 1px solid #fff;
+     border-bottom: 1px solid #fff;
+     padding-top: 15px;
+}
+.cap_group:first-child
+{
+    padding-top: 0px;
+    border-top:none;
+}
+.body_menu li .quests
+{
+    position: absolute;
+    background: url(/images/bg.png) repeat;
+    z-index:20;
+    margin: 20px 0 0 0;
+    list-style: none;
+    padding: 0;
+    display: none;
+}
+.nomail
+{
+    filter:progid:DXImageTransform.Microsoft.Alpha(opacity=30); /* IE 5.5+*/
+-moz-opacity: 0.3; /* Mozilla 1.6 и ниже */
+-khtml-opacity: 0.3; /* Konqueror 3.1, Safari 1.1 */
+opacity: 0.3; /* CSS3 - Mozilla 1.7b +, Firefox 0.9 +, Safari 1.2+, Opera 9 */
+}
+.body_menu li .quests 
+{
+    float: none;
+    color: #fff;
+ 
+   
+    padding: 4px 15px;
+}
+.body_menu li img
+{
+    padding-right: 8px;
+}
+.body_menu li
+{
+    float: left;
+    margin: 0 25px;
+    height: 28px;
+    line-height: 24px;
+}
+.body_menu li a
+{
+    color: #fff;
+    text-decoration: none;
+    display: inline-block;
+    vertical-align: top;
+}
+.body_menu li a:hover
+{
+      text-decoration: underline;
+}
+.border_right_zone
+{
+    border-right: 1px solid #f00 !important;
+}
+.border_right_busy
+{
+     border-right: 1px solid #D19732;
+}
+.selected_cells_par
+{
+    border-right: 1px solid #9fadc2 !important;
+}
+.selected_cells_par:last-child
+{
+   
+}
+.selected_cells a
+{
+    color:#3b456a;
+    font-size: 15px;
+    font-weight: bold;
+     text-shadow:0 1px 1px #fff;
+}
+.scroll_days
+{
+     overflow: hidden;
+}
+.cell_hotel
+{
+    background: #3b456a;
+    color: #fff;
+    font-size: 13px;
+ position: relative;
+    font-weight: bold;
+}
+.cell_hotel a
+{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    display: block;
+}
+.scroll_days label
+{
+
+    float: left;
+    width: 77px;
+    height: 21px;
+    border: 1px solid #000;
+    position: relative;
+    display: block;    
+    background: red;
+    color:#fff;
+    text-align: center;
+    border-right: none;
+    cursor: pointer;
+}
+.scroll_days label.selected_cell
+{
+    background: green;
+}
+.scroll_days label:last-child
+{
+     border-right:1px solid #e5e5e5 !important;
+}
+.scroll_days label input
+{
+   position: absolute;
+    left: 0;
+    top: 0;
+    z-index:5;
+    display: block;
+    visibility: hidden;
+   
+}
+.scroll_days label.reserved_slot
+{
+    background: yellow;
+    color:#000;
+    cursor: default;
+}
+.switch label input
+{
+    display:none;
+}
+
+.dirty_room.hoveredX
+{
+    background: url(/images/dirty.png) no-repeat 99% center  #2e3552 !important;
+  
+    color:#fff;
+}
+.hoveredX
+{
+    background: #2e3552 !important;
+  
+    color:#fff;
+}
+.calendar
+{
+    overflow: hidden;
+    
+    display: inline-block;
+    margin: 0 30px;
+    box-shadow:-3px -4px 8px #dddddd;
+}
+.calendar .column_cal
+{
+    display: inline-block;
+    vertical-align: top;
+
+  
+    
+}
+.calendar .column_cal .cell_cal
+{
+   
+    border-bottom: 1px solid #ededed;
+    border-right: 1px solid #ededed;
+       width: 23px;
+    height: 23px;
+    font-size: 11px;
+   background: #fff;
+    color:#3b456a;
+    line-height: 23px;
+    text-align: center;
+    font-weight: bold;
+    padding-left: 1px;
+}
+.calendar .column_cal .thead_cell
+{
+    border-bottom: 1px solid #ededed;
+    text-align: center;
+    width: 23px;
+    height: 23px;
+    font-size: 12px;
+    color:#676767;
+    text-shadow: 1px 0px 1px #fff;
+    line-height: 23px;
+    background: url(/images/calendar_th.png) repeat-x;
+    border-left: 1px solid #d4d4d4;
+    border-right:1px solid #fff;
+}
+.calendar .column_cal .thead_cell:last-child
+{
+    border-right: 1px solid #d4d4d4 !important;
+}
+.calendar .column_cal .cell_cal.busy_date a
+{
+    background: #3e8116;
+     color: #fff;
+     text-decoration: none;
+}
+.calendar .column_cal .cell_cal.busy_date a:hover
+{
+
+       background: #3B456A;
+    color: #fff;
+}
+
+.calendar .column_cal .cell_cal.busy_date_mb
+{
+     background: #3b456a;
+    color: #fff !important;
+}
+.head_cal
+{
+    text-align: center;
+    font-weight: bold;
+    font-size: 13px;
+    background: #3b456a;
+    color:#fff;
+    padding: 5px 0;
+  
+    
+}
+.cell_cal
+{
+    position: relative;
+}
+.cell_cal a
+{
+    position: absolute;
+    display: block;
+    height: 100%;
+    width: 100%;
+    left: 0;
+    top: 0;
+}
+.calendar .column_cal .cell_cal.busy_date_remove
+{
+  background: #fff;
+   color:#3b456a;
+}
+.calendar .column_cal .cell_cal.busy_date_goback
+{
+        background: #3b456a;
+    color: #fff !important;
+}
+.calendar .column_cal .firstday_sel
+{
+   background: #3B456A;
+    color: #fff;
+}
+.today
+{
+    font-weight: bold;
+}
+.today_cell
+{
+   filter:progid:DXImageTransform.Microsoft.Alpha(opacity=70); /* IE 5.5+*/
+-moz-opacity: 0.7; /* Mozilla 1.6 и ниже */
+-khtml-opacity: 0.7; /* Konqueror 3.1, Safari 1.1 */
+opacity: 0.7; /* CSS3 - Mozilla 1.7b +, Firefox 0.9 +, Safari 1.2+, Opera 9 */
+}
+.hiddenajaxbutton{display: none;}
+.loaderajax
+{
+    position: absolute;
+    background: url(/images/loader.gif) no-repeat;
+   
+    height: 32px;
+    width: 32px;
+    z-index:1000;
+    display: none;
+}
+.hidden_div
+{
+    position: absolute;
+    z-index:999;
+    height: 100%;
+    width: 100%;
+    display: block;
+    background: black;
+    left: 0;
+    top: 0;
+       filter:progid:DXImageTransform.Microsoft.Alpha(opacity=50); /* IE 5.5+*/
+-moz-opacity: 0.5; /* Mozilla 1.6 и ниже */
+-khtml-opacity: 0.5; /* Konqueror 3.1, Safari 1.1 */
+opacity: 0.5; /* CSS3 - Mozilla 1.7b +, Firefox 0.9 +, Safari 1.2+, Opera 9 */
+    display: none;
+}
+#content
+{
+    position: relative;
+}
+#navigation_scrolls
+{
+    position: fixed;
+
+    z-index: 25;
+}
+#back_cal
+{
+    display: inline-block;
+    width: 32px;
+    height: 32px;
+    background: url(/images/back.png) no-repeat;
+}
+
+
+#next_cal
+{
+    
+    display: inline-block;
+    width: 32px;
+    height: 32px;
+    background: url(/images/next.png) no-repeat;
+}
+.call_fancy.live_now.freeslots
+{
+    border-right: 1px solid #448C1B;
+}
+.call_fancy.busy_cell.freeslots
+{
+    border-right: 1px solid #D19732;
+}
+.call_fancy div.small
+{
+    line-height: 34px;
+    width: 43px;
+    height: 34px;
+    
+    position: relative;
+}
+.call_fancy div.small.left
+{
+    border-right: 1px solid #E5E5E5;
+}
+.part_row.dates div
+{
+    position: relative;
+}
+.part_row.dates div a 
+{
+    display: block;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+}
+#generated_way
+{
+    overflow: hidden;
+  
+}
+.way_boxs
+{
+    overflow: hidden;
+
+}
+.way_boxs .box
+{
+    float: left;
+    border-bottom: 1px solid #000;
+    border-left: 1px solid #000;
+    font-size: 12px;
+    font-weight: bold;
+    font-family: trebuchet ms,sans-serif;
+    padding: 0 5px;
+    width: 75px;
+}
+.box.noborder
+{
+   border-left: 1px solid #fff;
+   border-bottom: none;
+  
+}
+.way_boxs .box:last-child
+{
+    border-right: 1px solid #000;
+}
+.way_boxs .box.noborder:last-child
+{
+    border-right: 1px solid #fff;
+}
+.box label
+{
+    display: block;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+}
+
+#ajax_calendar
+{
+    background: #f3f3f3;
+    padding: 13px 0;
+}
+.switch.on
+{
+    background: #000;
+}
+.switch.off{
+    background: aqua;
+}
+.call_fancy.red_zone
+{
+    border-right: 1px solid #f00;
+}
+
+.red_zone
+{
+    background: #f00;
+    line-height: 32px;
+    
+}
+.red_zone a
+{
+    color:#fff;
+}
+.live_small
+{
+    background: #448C1B;
+}
+.row_box
+{
+    float: right;
+}
+.reserve_small
+{
+    background: #D19732;
+}
+#moneytable
+{
+    padding-left: 24px;
+    background: url(/images/no_coins.png) no-repeat left 4px;
+  
+}
+#moneytable.show_money
+{
+     background: url(/images/coins.png) no-repeat left 4px;
+}
+.dirty_room
+{
+    background: url(/images/dirty.png) no-repeat 99% center  #3B456A;
+}
+#top_bg
+{
+    height: 125px;
+    background: url(/images/top_bg.png) repeat-x top left;
+    position: fixed;
+    width: 100%;
+    
+      display: block;
+  
+    left: 0;
+    margin: 0;
+   
+ 
+    top: 0;
+display: none;
+}
+.was_users
+{
+    background: #ffd200;
+}
+.history_table
+{
+    margin: auto;
+    width: 96%;
+}
+.history_table tbody tr td
+{
+    border-bottom: 1px solid #E5E5E5;
+    background: #F3F3F3;
+    text-align: center;
+}
+.history_table thead tr td
+{
+    background: #3B456A;
+    text-align: center;
+    color:#fff;
+    font-size: 12px;
+    font-weight: bold;
+}
+.today
+{
+    background: #486fff !important;
+}

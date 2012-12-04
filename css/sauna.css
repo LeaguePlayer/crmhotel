@@ -1,0 +1,148 @@
+@import url('reset.css');
+
+#sauna_list
+{
+    
+    width: 1630px;
+    margin: 10px auto 0 auto;
+}
+#time_list
+{
+    width: 1440px;
+    overflow: hidden;
+    float: left;
+    position: relative;
+    margin-left: 190px;
+}
+#time_list .skala
+{
+    position: absolute;
+    height: 100%;
+    background: #f00;
+    width: 1px;
+    z-index: 10;
+    
+}
+.free_space_sauna_name
+{
+    width: 190px;
+    height: 28px;
+    display: inline-block;
+    
+    line-height: 26px;
+}
+.time_block
+{
+    width: 59px;
+    
+    display: inline-block;
+      background: none repeat scroll 0 0 #3B456A;
+    border-bottom: 1px solid #495583;
+    border-right: 1px solid #495583;
+    color: #FFFFFF;
+    
+    font-family: Arial,sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    height: 28px;
+    line-height: 26px;
+
+    text-align: center;
+}
+.place_name
+{
+     background: none repeat scroll 0 0 #3B456A;
+    color: #FFFFFF;
+    font-size: 11px;
+    font-weight: bold;
+    position: relative;
+    text-indent: 8px;
+    
+    border-bottom: 1px solid #2E3552;
+    height: 34px;
+    line-height: 34px;
+    width: 190px;
+}
+#names_place
+{
+    position: fixed;
+    z-index:25;
+    padding-top: 28px;
+    background: #fff;
+}
+#time_dates
+{
+    height: 29px;
+    overflow: hidden;
+}
+.line_info
+{
+    height: 34px;
+}
+.reservation_slot
+{
+    width: 59px;
+    height: 33px;
+    border-right: 1px solid #E5E5E5;
+    border-bottom: 1px solid #E5E5E5;
+    display: inline-block;
+    position: relative;
+}
+.reservation_slot .quadrate
+{
+    position: relative;
+    height: 34px;
+    display: inline-block;
+}
+.reservation_slot .quadrate a
+{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    left:0;
+    top: 0;
+}
+.line_info .reservation_slot.border
+{
+    border-right:1px solid #9fadc2;
+}
+.reservation_slot .selected_row.quadrate
+{
+    background: #9fadc2;
+}
+.reservation_slot .quadrate.main
+{
+    background: #f2f2f2;
+}
+.quadrate.reserve
+{
+    background:#D19732;
+}
+.reservation_slot.reserve
+{
+    border-right:1px solid #D19732;
+}
+.quadrate.live
+{
+    background:#448C1B;
+}
+.reservation_slot.live
+{
+    border-right:1px solid #448C1B;
+}
+.quadrate.prepay
+{
+    background:#9e0202;
+}
+.quadrate.exit
+{
+    background: #FFD200;
+}
+.reservation_slot.prepay
+{
+    border-right:1px solid #9e0202;
+}
+.reservation_slot.exit
+{
+    border-right: 1px solid #FFD200;
+}

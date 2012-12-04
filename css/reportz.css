@@ -1,0 +1,172 @@
+.more_info
+{
+    display: inline-block;
+    height: 16px;
+    width: 16px;
+    background: url(/images/list.png) no-repeat;
+    cursor: pointer;
+}
+.give_warning
+{
+    display: inline-block;
+    height: 16px;
+    width: 16px;
+    background: url(/images/war.png) no-repeat;    
+}
+.uncurrect_money
+{
+    display: inline-block;
+    height: 16px;
+    width: 16px;
+    background-image: url(/images/edittext.png); 
+    background-repeat: no-repeat;  
+    cursor: pointer;
+    margin-left: 6px;
+    position: relative;
+
+    background-position: left top;
+}
+.original .uncurrect_money
+{
+    z-index:10;
+}
+.edit_uncurrent_form
+{
+    position: absolute;
+    padding: 14px;
+    border: 1px solid #9fc7f8;
+    border-radius: 4px;
+    z-index:20;
+    background: #fff;
+    
+}
+.edit_uncurrent_form textarea
+{
+    width: 200px;
+    height: 100px;
+}
+.send_button
+{
+    margin-right: 6px;
+}
+.uncurrect_money.show_icon
+{
+    background-position: left bottom;
+}
+.reporttable
+{
+    width: 450px;
+}
+.reporttable tr td
+{
+    text-align: center;
+    border-bottom: 1px solid #000;
+    padding: 0;margin: 0;
+}
+.reporttable thead tr td
+{   
+     font-weight: bold;
+}
+.cap_h5
+{
+    font-weight: bold;
+    text-decoration: underline;
+}
+#guru_report
+{
+    width: 800px;
+    margin: auto;
+    overflow: hidden;
+}
+#guru_report .report_for_copy
+{
+    width: 360px;
+  margin: 5px 10px;
+  border-radius: 7px;
+    background: #c4e0ff;
+    padding: 8px;
+    position: relative;
+    float: left;
+        
+}
+#guru_report .report_for_copy .icons_list{
+    position: absolute;
+    overflow: hidden;
+        top: 10px;
+        right: 10px;
+      
+        width:72px;
+        height: 16px;
+}
+#guru_report .report_for_copy .icons_list.load{
+    background: url(/images/load_report.gif) no-repeat left top;
+}
+.send_my_report
+{
+    background: #beffd5;
+}
+.dublicate_report{
+    margin: 30px 0px;
+    text-align: center;
+    font-size:14px;
+    
+}
+.dublicate_report div span
+{
+    cursor: pointer;
+    font-size:16px;
+    font-weight: bold;
+    padding: 4px 7px;
+    border-radius: 6px;
+    background-image: linear-gradient(bottom, rgb(255,56,56) 31%, rgb(163,0,0) 100%);
+background-image: -o-linear-gradient(bottom, rgb(255,56,56) 31%, rgb(163,0,0) 100%);
+background-image: -moz-linear-gradient(bottom, rgb(255,56,56) 31%, rgb(163,0,0) 100%);
+background-image: -webkit-linear-gradient(bottom, rgb(255,56,56) 31%, rgb(163,0,0) 100%);
+background-image: -ms-linear-gradient(bottom, rgb(255,56,56) 31%, rgb(163,0,0) 100%);
+
+background-image: -webkit-gradient(
+	linear,
+	left bottom,
+	left top,
+	color-stop(0.31, rgb(255,56,56)),
+	color-stop(1, rgb(163,0,0))
+);
+color:#fff;
+}
+
+.close_report
+{
+    background: url(/images/del_report.png) no-repeat left top;
+    height:16px;
+    width:16px;
+    cursor: pointer;
+    display: block;
+    float: right;
+    margin-left: 8px; 
+}
+.save_report
+{
+    background: url(/images/floppy.png) no-repeat left top;
+    height:16px;
+    width:16px;
+    cursor: pointer;
+    display: none;
+    float: right;
+   
+}
+.miss_kassa{
+    color: #f00;
+}
+#by_office
+{
+    margin-top: 12px;
+}
+.finished_edit
+{
+     background: url(/images/finished-work.png) no-repeat left top;
+    height:16px;
+    width:16px;
+    cursor: pointer;
+     display: inline-block;
+     margin-left: 6px;
+}

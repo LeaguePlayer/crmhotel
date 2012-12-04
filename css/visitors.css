@@ -1,0 +1,26 @@
+#itogo.load
+{
+    background: url(/images/load.gif) no-repeat top left;
+    
+}
+#itogo
+{
+    display: inline-block;
+    padding-left: 20px;
+}
+fieldset
+{
+    border: 1px solid #D0D0D0 !important;
+    border-radius: 8px 8px 8px 8px;
+    padding: 6px;
+}
+#go_to_prepay
+{
+    display:none;
+}
+.go_to_prepay
+{
+    text-decoration: underline;
+    color:#1200ff;
+    cursor: pointer;
+}

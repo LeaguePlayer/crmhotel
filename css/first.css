@@ -1,0 +1,14 @@
+body
+{
+    background: none repeat scroll 0 0 #EFEFEF;
+}
+.chess_loader
+{
+    position: fixed;
+    height: 32px;
+    top: 150px;
+    left: 50%;
+    width: 32px;
+    background: url(/images/loader.gif) no-repeat center center;
+    z-index:200;
+}

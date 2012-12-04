@@ -1,0 +1,16 @@
+RewriteEngine On
+RewriteBase /
+RewriteCond %{HTTP_HOST} ^xn--80aafif1br5ad6h.com
+RewriteRule (.*) http://avtodetalki.com/$1 [R=301,L]
+RewriteCond %{HTTP_HOST} ^www.xn--80aafif1br5ad6h.com
+RewriteRule (.*) http://avtodetalki.com/$1 [R=301,L]
+RewriteCond %{HTTP_HOST} ^www.avtodetalki.com
+RewriteRule (.*) http://avtodetalki.com/$1 [R=301,L]
+#RewriteRule xn--80aafif1br5ad6h.com(.+)$ http://avtodetalki.com/$1 [R=301,L]
+#RewriteRule www.xn--80aafif1br5ad6h.com/(.+)$ http://avtodetalki.com/$1 [R=301,L]
+RewriteRule ^([^.]+)$ index.php
+
+
+
+
+

@@ -1,0 +1,28 @@
+.photo_one {
+    margin-bottom: 10px;
+}
+
+.photo_wrap {
+    position: relative;
+    width: 75px;
+    display: inline-block;
+}
+
+.close {
+    position: absolute;
+    background: url("/images/dialog-close.png") no-repeat;
+    width: 22px;
+    height: 22px;
+    right: -12px;
+    top: -12px;
+    cursor: pointer;
+}
+
+.radiobuttons {
+    display: inline-block;
+}
+
+.radiobuttons label {
+    display: inline-block;
+    margin-left: 20px;
+}
